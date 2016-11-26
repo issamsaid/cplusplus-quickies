@@ -13,17 +13,53 @@
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
 # Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
 
+# Cmake files
+build/
+build/*
+*/build/
+*/build/*
+
+# The binary dirs
+bin/
+*/bin/
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
 # Executables
 *.exe
 *.out
 *.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+
+# Doc files
+doc/html
+doc/doxygen.stamp
+
+# Release scripts
+release.sh
+tag.sh
